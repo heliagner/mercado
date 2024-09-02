@@ -5,7 +5,7 @@ let nextId = 1
 const model = (body, id = nextId++) => {
     if(
         body.nome != undefined &&
-        body.nome != "" &&
+        body.nome != ""
     ) {
         return {
             id,
